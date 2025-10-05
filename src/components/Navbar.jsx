@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaHeart, FaBars, FaTimes } from "react-icons/fa";
+import assets from "../assets/assets";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,15 +15,15 @@ const Navbar = () => {
     }`;
 
   return (
-    <nav className="bg-white border-b shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
+    <nav className="bg-white  shadow-sm ">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
         {/* Logo */}
-        <NavLink
-          to="/"
-          className="flex items-center text-green-700 font-semibold text-lg"
-        >
-          <FaHeart className="mr-2" />
-          Nikkah Weds
+        <NavLink to="/" className="h-full  font-semibold text-lg p-1 left-3">
+          <img
+            src={assets.logo}
+            alt=""
+            className="h-full w-full object-contain"
+          />
         </NavLink>
 
         {/* Desktop Nav */}
