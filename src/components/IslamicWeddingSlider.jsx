@@ -58,7 +58,7 @@ const IslamicWeddingSlider = () => {
   };
 
   return (
-    <div className="bg-white py-12 px-4 sm:px-6 lg:px-16 min-h-[60vh] xl:min-h-[80vh]">
+    <div className="bg-white py-12 px-4 sm:px-6 lg:px-16 ">
       <h2 className="text-3xl  xl:text-4xl font-bold text-center text-green-800 mb-4 mt-9">
         Islamic Wedding Traditions
       </h2>
@@ -68,7 +68,7 @@ const IslamicWeddingSlider = () => {
       </p>
 
       <div className="flex justify-center items-center ">
-        <div className="bg-white rounded-lg shadow-md overflow-hidden max-w-5xl w-full flex flex-col md:flex-row relative border border-green-100 min-h-[60vh] md:min-h-[44vh] ">
+        <div className="bg-white rounded-lg shadow-md overflow-hidden max-w-5xl w-full flex flex-col md:flex-row relative border border-green-100 min-h-[50vh] ">
           {/* Left Side - Image */}
           <div className="md:w-1/2 w-full">
             <img
