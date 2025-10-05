@@ -59,34 +59,34 @@ const IslamicWeddingSlider = () => {
 
   return (
     <div className="bg-white py-12 px-4 sm:px-6 lg:px-16 min-h-[60vh] xl:min-h-[80vh]">
-      <h2 className="text-2xl md:text-3xl xl:text-4xl font-bold text-center text-green-800 mb-4 mt-9">
+      <h2 className="text-3xl  xl:text-4xl font-bold text-center text-green-800 mb-4 mt-9">
         Islamic Wedding Traditions
       </h2>
-      <p className="text-center text-sm md:text-base lg:text-lg text-green-600 mb-12 max-w-2xl mx-auto">
+      <p className="text-center text-base/loose lg:text-lg text-green-700 mb-14 max-w-2xl mx-auto">
         Celebrating the beauty of Islamic matrimony with traditions that honor
         Allah, family, and the sacred bond of marriage.
       </p>
 
-      <div className="flex justify-center items-center">
-        <div className="bg-white rounded-lg shadow-md overflow-hidden max-w-5xl w-full flex flex-col md:flex-row relative border border-green-100 min-h-[44vh] ">
+      <div className="flex justify-center items-center ">
+        <div className="bg-white rounded-lg shadow-md overflow-hidden max-w-5xl w-full flex flex-col md:flex-row relative border border-green-100 min-h-[60vh] md:min-h-[44vh] ">
           {/* Left Side - Image */}
           <div className="md:w-1/2 w-full">
             <img
               src={slides[currentSlide].image}
               alt={slides[currentSlide].title}
-              className="w-full h-full object-cover p-2"
+              className="w-full h-full object-cover md:p-2"
             />
           </div>
 
           {/* Right Side - Content */}
-          <div className="md:w-1/2 w-full p-6 flex flex-col justify-center bg-green-50">
-            <span className="inline-block bg-green-100 text-green-800 text-sm font-medium px-4  rounded-full mb-2 p-y-1 w-3/4">
+          <div className="md:w-1/2 w-full p-6 flex flex-col justify-center bg-green-50/60 md:bg-green-50 max-md:mt-1">
+            <span className="inline-block bg-green-100 text-green-800 text-sm font-medium px-4  rounded-full mb-3 p-y-1 w-3/4">
               {slides[currentSlide].subtitle}
             </span>
-            <h3 className="text-xl md:text-2xl font-bold text-green-800 mb-2">
+            <h3 className="text-xl md:text-2xl font-bold text-green-800 mb-3">
               {slides[currentSlide].title}
             </h3>
-            <p className="text-green-600 mb-4">
+            <p className="text-green-600 mb-5">
               {slides[currentSlide].description}
             </p>
 
@@ -95,8 +95,8 @@ const IslamicWeddingSlider = () => {
               {slides.map((_, idx) => (
                 <span
                   key={idx}
-                  className={`h-2 w-2 rounded-full ${
-                    idx === currentSlide ? "bg-green-800" : "bg-green-200"
+                  className={`h-3 w-3 rounded-full ${
+                    idx === currentSlide ? "bg-green-400" : "bg-green-200"
                   }`}
                 ></span>
               ))}
@@ -106,15 +106,15 @@ const IslamicWeddingSlider = () => {
           {/* Navigation Buttons */}
           <button
             onClick={prevSlide}
-            className="absolute left-2 top-1/2 -translate-y-1/2 bg-white border border-gray-200 shadow p-2 rounded-full hover:bg-green-100"
+            className="absolute left-2 top-1/2 -translate-y-1/2 md:bg-white bg-white/77 border border-gray-200 shadow p-2 rounded-full hover:bg-green-100"
           >
-            <FaChevronLeft className="text-green-800" />
+            <FaChevronLeft className="text-green-400" />
           </button>
           <button
             onClick={nextSlide}
-            className="absolute right-2 top-1/2 -translate-y-1/2 bg-white border border-gray-200 shadow p-2 rounded-full hover:bg-green-100"
+            className="absolute right-2 top-1/2 -translate-y-1/2 md:bg-white bg-white/77 border border-gray-200 shadow p-2 rounded-full hover:bg-green-100"
           >
-            <FaChevronRight className="text-green-800" />
+            <FaChevronRight className="text-green-400" />
           </button>
         </div>
       </div>
