@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import ContactForm from "../components/ContactForm";
 import IslamicWeddingSlider from "../components/IslamicWeddingSlider";
 
-export const HomePage = () => {
+const HomePage = () => {
   return (
     <div>
       <Hero />
@@ -12,3 +12,4 @@ export const HomePage = () => {
     </div>
   );
 };
+export default HomePage;
