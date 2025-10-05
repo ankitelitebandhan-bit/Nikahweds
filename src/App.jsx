@@ -9,6 +9,12 @@ const App = () => {
       <Routes>
         <Route element={<Applayout />}>
           <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<HomePage />} />
+          <Route path="/contact" element={<HomePage />} />
+          <Route path="/blogs" element={<HomePage />} />
+          <Route path="/privacy-policy" element={<HomePage />} />
+          <Route path="/terms" element={<HomePage />} />
+          <Route path="/testimonials" element={<HomePage />} />
         </Route>
       </Routes>
     </BrowserRouter>

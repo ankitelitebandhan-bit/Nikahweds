@@ -9,7 +9,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-[#014421] text-white py-12 px-6 md:px-12 lg:px-20">
+    <footer className="bg-[#014e26] text-white py-12 px-6 md:px-12 lg:px-20">
       <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
         {/* Brand + About */}
         <div className="space-y-4">
@@ -37,7 +37,7 @@ export default function Footer() {
           </p>
 
           {/* Contact Section */}
-          <div className="mt-8 bg-green-900 bg-opacity-30 p-4 rounded-md space-y-3">
+          <div className="mt-8 bg-green-800 bg-opacity-30 p-4 rounded-md space-y-3">
             <p className="italic font-medium text-green-100">Reach Out to Us</p>
             <p className="flex items-center space-x-2 text-green-100 text-sm md:text-base">
               <FaEnvelope />
