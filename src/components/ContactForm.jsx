@@ -41,11 +41,11 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="bg-gradient-to-b from-yellow-50 to-green-50 py-14 px-4 sm:px-6 lg:px-8  flex items-center justify-center flex-col">
-      <h2 className="text-3xl sm:text-4xl lg:text-5xl  font-bold text-center text-green-800 mb-4">
+    <div className="bg-gradient-to-b from-yellow-50 to-green-50 py-14 px-4 sm:px-6 lg:px-8  flex items-center justify-center flex-col mt-0">
+      <h2 className="text-3xl sm:text-4xl lg:text-5xl text-center text-green-800 mb-4 font-extrabold italic">
         Get Started Today
       </h2>
-      <p className="text-center text-green-700  text-sm sm:text-base lg:text-lg mb-10 lg:w-1/2">
+      <p className="text-center text-green-700 p-1 text-base/loose lg:text-lg mb-10 lg:w-1/2">
         Fill out the form below and our team will get in touch with you to help
         you begin your journey towards finding your perfect life partner.
       </p>
