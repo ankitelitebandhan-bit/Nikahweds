@@ -194,14 +194,17 @@ const Testimonials = () => {
           {/* Call to Action */}
           <div className="bg-green-700/60 backdrop-blur-3xl p-4 rounded-lg text-center space-y-2 shadow-md">
             <p className="font-medium">Ready to Join Them?</p>
-            <p className="text-sm/tight">
+            <p className="text-sm/tight mb-6">
               Start your journey with confidence knowing you're joining
               thousands of successful couples
             </p>
-            <button className="bg-white text-green-600 px-4 py-2 rounded-full font-semibold hover:bg-gray-100 hover:scale-95 mt-4 transition">
+            <Link
+              to="/contact"
+              className="bg-white text-green-600 px-4 py-2 rounded-full font-semibold hover:bg-gray-100 hover:scale-95  transition"
+            >
               {" "}
               Create Your Profile Today{" "}
-            </button>
+            </Link>
           </div>
         </div>
       </div>
