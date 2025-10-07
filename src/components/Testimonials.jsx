@@ -126,9 +126,12 @@ const Testimonials = () => {
                 </div>
               </div>
             </div>
-            <button className="bg-green-600 px-4 py-2 rounded-xl text-white font-semibold hover:bg-green-500 hover:scale-95 mt-4 transition">
+            <Link
+              to="/testimonials"
+              className="inline-block bg-green-500 text-white px-4 py-2 rounded-full font-semibold hover:bg-green-400 hover:scale-95 mt-4 transition transform"
+            >
               Read More Success Stories
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -196,7 +199,8 @@ const Testimonials = () => {
               thousands of successful couples
             </p>
             <button className="bg-white text-green-600 px-4 py-2 rounded-full font-semibold hover:bg-gray-100 hover:scale-95 mt-4 transition">
-              Create Your Profile Today
+              {" "}
+              Create Your Profile Today{" "}
             </button>
           </div>
         </div>
