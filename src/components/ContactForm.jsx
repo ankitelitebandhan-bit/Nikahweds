@@ -17,10 +17,10 @@ const ContactForm = () => {
 
     emailjs
       .sendForm(
-        "service_thtbb2e", // EmailJS service ID
-        "template_06564si", // EmailJS template ID
+        "service_2mlv9ve", // EmailJS service ID
+        "template_ogep3i2", // EmailJS template ID
         e.target,
-        "kRJ0-Q8iuigZ9gdG_" // EmailJS public key
+        "TzeqKMGKnUOT1YOGf" // EmailJS public key
       )
       .then(
         (result) => {
