@@ -51,13 +51,13 @@ const Hero = () => {
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 mb-10">
           <NavLink
-            to="/register"
+            to="/contact"
             className="bg-green-600 hover:bg-green-700 hover:border-white text-white px-6 py-3 rounded-full text-sm xl:text-base font-medium transition duration-300 border-2 border-green-600"
           >
             Start Your Journey
           </NavLink>
           <NavLink
-            to="/login"
+            to="/contact"
             className="bg-white text-green-700 hover:border-green-400 px-6 py-3 rounded-full text-sm xl:text-base font-medium transition duration-300 border-2 border-white"
           >
             Login
