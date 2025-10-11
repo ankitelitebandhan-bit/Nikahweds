@@ -14,12 +14,12 @@ export default function Footer() {
         {/* Brand + About */}
         <div className="space-y-4">
           <h1 className="text-2xl md:text-3xl font-bold text-white">
-            NikahWeds.com
+            NikahWed.com
           </h1>
 
           {/* Updated Muslim-Specific Text */}
           <p className="text-base leading-relaxed italic text-green-100">
-            At <span className="font-semibold not-italic">NikahWeds</span>,
+            At <span className="font-semibold not-italic">NikahWed</span>,
             matchmaking is more than a service — it's our <em>amanah</em>.
             Rooted in Islamic values, we strive to unite Muslim hearts in sacred
             companionship, celebrating every nikah we help bring to life.
@@ -42,15 +42,15 @@ export default function Footer() {
             <p className="flex items-center space-x-2 text-green-100 text-sm md:text-base">
               <FaEnvelope />
               <a
-                href="mailto:Care@NikahWeds.com"
+                href="mailto:Care@Nikahwed.com"
                 className="underline hover:text-green-300"
               >
-                Care@NikahWeds.com
+                Care@Nikahwed.com
               </a>
             </p>
             <p className="flex items-center space-x-2 text-green-100 text-sm md:text-base">
               <FaPhone />
-              <span>+91 9315812799</span>
+              <span>+91 8800541031</span>
             </p>
           </div>
         </div>
@@ -130,7 +130,7 @@ export default function Footer() {
 
       {/* Divider */}
       <div className="mt-12 border-t border-green-700 pt-4 text-center text-sm text-gray-300">
-        NikahWeds.Com ©2025. All Rights Reserved
+        NikahWed.Com ©2025. All Rights Reserved
       </div>
     </footer>
   );

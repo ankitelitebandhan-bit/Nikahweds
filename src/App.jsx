@@ -5,6 +5,8 @@ import HomePage from "./components/HomePage";
 import TestimonialsPage from "./components/TestimonialsPage";
 import AboutPage from "./components/AboutPage";
 import ContactForm from "./components/ContactForm";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import TermsCondition from "./components/TermsCondition";
 
 const App = () => {
   return (
@@ -15,8 +17,8 @@ const App = () => {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactForm />} />
           <Route path="/blogs" element={<HomePage />} />
-          <Route path="/privacy-policy" element={<HomePage />} />
-          <Route path="/terms" element={<HomePage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms" element={<TermsCondition />} />
           <Route path="/testimonials" element={<TestimonialsPage />} />
         </Route>
       </Routes>

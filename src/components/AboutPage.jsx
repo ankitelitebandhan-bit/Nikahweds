@@ -6,9 +6,9 @@ import { FaHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const faqs = [
   {
-    question: "How does NikahWeds ensure Islamic compliance?",
+    question: "How does NikahWed ensure Islamic compliance?",
     answer:
-      "NikahWeds is built on Islamic principles, ensuring all interactions respect halal boundaries, with optional family involvement and strict privacy measures.",
+      "NikahWed is built on Islamic principles, ensuring all interactions respect halal boundaries, with optional family involvement and strict privacy measures.",
   },
   {
     question: "What safety measures do you have in place?",
@@ -23,7 +23,7 @@ const faqs = [
   {
     question: "Is there family involvement in the process?",
     answer:
-      "Yes, NikahWeds encourages family involvement and provides features that make it easy to include your wali or family members.",
+      "Yes, NikahWed encourages family involvement and provides features that make it easy to include your wali or family members.",
   },
   {
     question: "What are your success rates?",
@@ -33,7 +33,7 @@ const faqs = [
   {
     question: "Do you serve Muslims worldwide?",
     answer:
-      "Yes, NikahWeds is available globally, connecting Muslims from all regions while respecting cultural and religious diversity.",
+      "Yes, NikahWed is available globally, connecting Muslims from all regions while respecting cultural and religious diversity.",
   },
 ];
 const AboutUs = () => {
