@@ -3,7 +3,7 @@ import hero2 from "../assets/muslim_wedding2.webp";
 import hero3 from "../assets/muslim_wedding3.webp";
 import hero4 from "../assets/muslim_wedding4.webp";
 import Test1 from "../assets/Test1.jpg";
-import Test2 from "../assets/Test2.jpg";
+import Test2 from "../assets/test2.jpg";
 import Test3 from "../assets/test3.webp";
 import Test4 from "../assets/test4.webp";
 import Test5 from "../assets/test5.webp";
