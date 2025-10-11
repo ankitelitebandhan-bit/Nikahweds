@@ -9,10 +9,10 @@ const PrivacyPolicy = () => {
             Privacy Policy
           </h1>
           <p className="text-xl mb-4">
-            Nikahwad.com is India’s growing matrimony platform owned by
+            Nikahwed.com is India’s growing matrimony platform owned by
             Effectical Service Solutions Private Limited, striving to provide
             you with matrimonial services. This privacy policy applies to
-            Nikahwad.com. We have drafted a privacy statement for the
+            Nikahwed.com. We have drafted a privacy statement for the
             information we gather from you because we are deeply devoted to your
             right to privacy.
           </p>
@@ -85,7 +85,7 @@ const PrivacyPolicy = () => {
           </h2>
           <p className="mb-4 text-lg">
             It is your right to completely delete any data we have collected on
-            you. Please send an email to our inbox at Care@Nikahwad.com and
+            you. Please send an email to our inbox at Care@Nikahwed.com and
             include “Data Deletion” in the email subject to request deletion of
             your data. Your continued use of our website will be regarded as
             acceptance of our practices around privacy and personal information.
@@ -130,13 +130,13 @@ const PrivacyPolicy = () => {
           </h2>
           <p className="mb-4 text-lg">
             If you have any questions or suggestions about our Privacy Policy,
-            do not hesitate to contact us at Care@Nikahwad.com
+            do not hesitate to contact us at Care@Nikahwed.com
           </p>
 
           <p className="mb-4 mt-10 text-lg">
             For any issues or requests, please contact our customer support
             numbers. Call on +91-9315812799, WhatsApp on +91-9315812799 or email
-            us at Care@Nikahwad.com.
+            us at Care@Nikahwed.com.
           </p>
         </div>
       </div>

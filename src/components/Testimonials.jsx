@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import assets from "../assets/assets";
-const placeholderImg = "https://i.pravatar.cc/150?img=";
+
 const testimonialsData = [
   {
     name: "Layla & Khalid",
     location: "Manchester, UK",
     testimonial:
       "NikahWed’s approach to Islamic matrimony is unparalleled. The platform respects our values while providing modern, secure tools for finding the right partner. We're blessed to have found each other here.",
-    imgUrl: `${placeholderImg}32`,
+    imgUrl: assets.Test1,
     rating: 5,
   },
   {
@@ -16,7 +16,7 @@ const testimonialsData = [
     location: "Melbourne, Australia",
     testimonial:
       "The family involvement feature made our families comfortable from the beginning. NikahWed understands the importance of family in Islamic marriage and facilitates meaningful connections.",
-    imgUrl: `${placeholderImg}31`, // Add your image URL here
+    imgUrl: assets.Test2, // Add your image URL here
     rating: 5,
   },
   // Add more testimonials here

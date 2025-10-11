@@ -1,5 +1,6 @@
 import React from "react";
 import { FaQuoteLeft, FaStar } from "react-icons/fa";
+import assets from "../assets/assets";
 
 const placeholderImg = "https://i.pravatar.cc/150?img=";
 
@@ -13,7 +14,7 @@ const testimonials = [
     badgeColor: "green",
     duration: "6 months",
     married: "March 2024",
-    image: `${placeholderImg}1`,
+    image: assets.Test3,
     rating: 5,
   },
   {
@@ -25,7 +26,7 @@ const testimonials = [
     badgeColor: "teal",
     duration: "4 months",
     married: "January 2024",
-    image: `${placeholderImg}2`,
+    image: assets.Test4,
     rating: 5,
   },
   {
@@ -37,7 +38,7 @@ const testimonials = [
     badgeColor: "green",
     duration: "8 months",
     married: "September 2023",
-    image: `${placeholderImg}3`,
+    image: assets.Test5,
     rating: 5,
   },
   {
@@ -49,7 +50,7 @@ const testimonials = [
     badgeColor: "emerald",
     duration: "5 months",
     married: "November 2023",
-    image: `${placeholderImg}4`,
+    image: assets.Test6,
     rating: 5,
   },
   {
@@ -61,7 +62,7 @@ const testimonials = [
     badgeColor: "cyan",
     duration: "7 months",
     married: "December 2023",
-    image: `${placeholderImg}5`,
+    image: assets.Test7,
     rating: 5,
   },
   {
@@ -73,7 +74,7 @@ const testimonials = [
     badgeColor: "green",
     duration: "3 months",
     married: "February 2024",
-    image: `${placeholderImg}6`,
+    image: assets.Test8,
     rating: 5,
   },
   {
@@ -85,7 +86,7 @@ const testimonials = [
     badgeColor: "green",
     duration: "9 months",
     married: "August 2023",
-    image: `${placeholderImg}7`,
+    image: assets.Test9,
     rating: 5,
   },
   {
@@ -97,7 +98,7 @@ const testimonials = [
     badgeColor: "green",
     duration: "6 months",
     married: "June 2023",
-    image: `${placeholderImg}8`,
+    image: assets.Test10,
     rating: 5,
   },
   {
@@ -109,7 +110,7 @@ const testimonials = [
     badgeColor: "green",
     duration: "4 months",
     married: "May 2024",
-    image: `${placeholderImg}9`,
+    image: assets.Test11,
     rating: 5,
   },
   {
@@ -121,7 +122,7 @@ const testimonials = [
     badgeColor: "green",
     duration: "6 months",
     married: "October 2023",
-    image: `${placeholderImg}10`,
+    image: assets.Test12,
     rating: 5,
   },
   {
@@ -133,7 +134,7 @@ const testimonials = [
     badgeColor: "green",
     duration: "5 months",
     married: "July 2023",
-    image: `${placeholderImg}11`,
+    image: assets.Test13,
     rating: 5,
   },
   {
@@ -145,7 +146,7 @@ const testimonials = [
     badgeColor: "cyan",
     duration: "8 months",
     married: "April 2024",
-    image: `${placeholderImg}12`,
+    image: assets.Test14,
     rating: 5,
   },
 ];

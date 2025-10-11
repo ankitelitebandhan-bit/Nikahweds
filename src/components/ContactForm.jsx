@@ -104,17 +104,30 @@ const ContactForm = () => {
               <label className="block text-sm font-medium text-green-700">
                 Country
               </label>
-              <input
-                type="text"
+              <select
                 name="country"
                 value={formData.country}
                 onChange={(e) =>
                   setFormData({ ...formData, country: e.target.value })
                 }
                 required
-                placeholder="Enter your country"
                 className="mt-1 block w-full rounded-md border-green-300 shadow-sm focus:ring-green-500 focus:border-green-500 p-2 border-1 focus:outline-none"
-              />
+              >
+                <option value="" disabled>
+                  Select your country
+                </option>
+                <option value="India">India</option>
+                <option value="Bahrain">Bahrain</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Iran">Iran</option>
+                <option value="Kuwait">Kuwait</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Maldives">Maldives</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Saudi Arabia">Saudi Arabia</option>
+                <option value="Guinea">Guinea</option>
+                <option value="Morocco">Morocco</option>
+              </select>
             </div>
           </div>
 

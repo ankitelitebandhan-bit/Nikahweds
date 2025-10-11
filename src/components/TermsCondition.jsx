@@ -542,7 +542,7 @@ const TermsCondition = () => {
                 Effectical Service Solutions Private Limited Plot No 7A UG
                 Floor, Sec - 19 Dwarka, Near The Church of our lady of Lourdes,
                 South West Delhi- 110075 Email: Care@Nikahwed.com Phone: +91
-                9315812799
+                8800541031
               </p>
             </section>
           </div>
