@@ -7,6 +7,7 @@ import AboutPage from "./components/AboutPage";
 import ContactForm from "./components/ContactForm";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import TermsCondition from "./components/TermsCondition";
+import RegistrationForm from "./components/RegistrationForm";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactForm />} />
+          <Route path="/register" element={<RegistrationForm />} />
           <Route path="/blogs" element={<HomePage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms" element={<TermsCondition />} />
