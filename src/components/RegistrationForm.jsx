@@ -198,15 +198,14 @@ export default function RegistrationForm() {
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-10">
-          {/* Contact Information */}
+          {/* Client Details */}
           <section>
-            <SectionHeader title="Contact Information" />
+            <SectionHeader title="Client Details" />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Input label="Name" name="name" />
               <Input label="Phone" name="phone" />
-              <Input label="Email" name="email" type="email" />
               <Input label="Alternate Phone" name="altPhone" />
-              <Input label="Caste" name="caste" />
+              <Input label="Email" name="email" type="email" />
               <Select
                 label="Profile Created For"
                 name="profileCreatedFor"
@@ -219,15 +218,6 @@ export default function RegistrationForm() {
                   "Friend",
                 ]}
               />
-            </div>
-          </section>
-
-          {/* Client Basic Info */}
-          <section>
-            <SectionHeader title="Client Basic Information" />
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <Input label="Client Name" name="clientName" />
-              <Input label="Client Phone" name="clientPhone" />
               <Input label="Date of Birth" name="dob" type="date" />
               <Select
                 label="Gender"
@@ -274,18 +264,22 @@ export default function RegistrationForm() {
               />
               <Input label="Mother Tongue" name="motherTongue" />
               <Input label="Native Place" name="nativePlace" />
-              <div className="md:col-span-2">
-                <label className="block text-sm text-gray-700">
-                  <span className="font-medium">Describe Yourself</span>
-                  <textarea
-                    name="describeYourself"
-                    value={form.describeYourself || ""}
-                    onChange={handleChange}
-                    rows={4}
-                    className="w-full mt-1 rounded-xl border px-4 py-2 shadow-sm focus:ring-green-500"
-                  />
-                </label>
-              </div>
+              <Input label="Current Location" name="currentLocation" />
+            </div>
+          </section>
+
+          {/* Religious Information */}
+          <section>
+            <SectionHeader title="Religious Information" />
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <Input label="Religion" name="religion" />
+              <Input label="Caste" name="caste" />
+              <Input label="Gotra" name="gotra" />
+              <Select
+                label="Manglik Status"
+                name="manglikStatus"
+                options={["Yes", "No"]}
+              />
             </div>
           </section>
 

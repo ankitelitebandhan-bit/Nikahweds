@@ -70,9 +70,9 @@ const Navbar = () => {
           <NavLink to="/contact" className={linkStyle} onClick={closeMenu}>
             Contact
           </NavLink>
-          <NavLink to="/login" onClick={closeMenu}>
+          <NavLink to="/register" onClick={closeMenu}>
             <span className="block bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded text-sm transition w-fit">
-              Login
+              Register
             </span>
           </NavLink>
         </div>
