@@ -127,6 +127,12 @@ const ContactForm = () => {
                 <option value="Saudi Arabia">Saudi Arabia</option>
                 <option value="Guinea">Guinea</option>
                 <option value="Morocco">Morocco</option>
+                <option value="Morocco">US</option>
+                <option value="Morocco">Australia</option>
+                <option value="Morocco">Canada</option>
+                <option value="Morocco">Dubai</option>
+                <option value="Morocco">Egypt</option>
+                <option value="Morocco">Algeria</option>
               </select>
             </div>
           </div>

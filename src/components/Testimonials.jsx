@@ -199,7 +199,7 @@ const Testimonials = () => {
               thousands of successful couples
             </p>
             <Link
-              to="/contact"
+              to="/register"
               className="bg-white text-green-600 px-4 py-2 rounded-full font-semibold hover:bg-gray-100 hover:scale-95  transition"
             >
               {" "}
