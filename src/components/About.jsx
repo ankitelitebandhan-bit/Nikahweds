@@ -71,13 +71,17 @@ const About = () => {
             Our mission is to guide your journey towards Nikah in a way that
             blends modern convenience with traditional values.
           </p>
-          <p className="text-gray-600 mb-3">Still have questions?</p>
+          <p className="text-gray-600 mb-3 mt-3">Still have questions?</p>
           <Link
             to="/contact"
-            className="bg-green-500 mx-auto text-white text-base px-3 py-2 w-3/4 lg:w-1/4 rounded-full font-semibold  hover:scale-95 mt-7  flex items-center justify-center gap-5 hover:flex-row-reverse transition-all duration-500"
+            className="bg-green-500 text-white text-base px-5 py-2 rounded-full font-semibold 
+             flex items-center justify-center gap-2 
+             transition-all duration-300 ease-in-out 
+             hover:scale-95 hover:bg-green-600 
+             w-fit mx-auto mt-7"
           >
             <span>Contact Us</span>
-            <span className="w-12 h-12 rounded-full bg-white transition"></span>
+            <span className="w-8 h-8 rounded-full bg-white transition"></span>
           </Link>
         </div>
 
